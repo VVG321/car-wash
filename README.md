@@ -59,7 +59,7 @@
 
 # USE CASES
 
-plantuml
+```plantuml
 ![](drg.svg)
 
 @startuml
@@ -149,4 +149,5 @@ Client --|> UC10
 Staff --> UC9
 
 @enduml
+```
 
