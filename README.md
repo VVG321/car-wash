@@ -59,6 +59,4 @@
 
 # USE CASES
 
-```markdown
-drg.png
-```
+!(drg.png)
