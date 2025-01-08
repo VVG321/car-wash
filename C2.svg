@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1291px" preserveAspectRatio="none" style="width:1790px;height:1291px;background:#FFFFFF;" version="1.1" viewBox="0 0 1790 1291" width="1790px" zoomAndPan="magnify"><defs/><g><!--MD5=[84dda40acb3410cad7262261daba2aaf]
+cluster c1--><g id="cluster_c1"><rect fill="none" height="884" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="1187" x="7" y="248"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="181" x="510" y="264.8516">Система Автомойки</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="569.5" y="279.7637">[System]</text></g><!--MD5=[5030a8aa1c23fb7aeae2de0ea10fd921]
+entity mobile_app--><g id="elem_mobile_app"><rect fill="#438DD5" height="169" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="219" x="238.5" y="299"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="249.5" y="321.9951">&lt;$Java/Kotlin (Android), Swift</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="325.5" y="338.292">(iOS)&gt;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="104" x="293" y="356.4453">Мобильное</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="116" x="290" y="375.0703">приложение</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="82" x="307" y="389.9824">[Android/iOS]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="346" y="405.8076"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="271" y="422.1045">Позволяет клиентам</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="248.5" y="438.4014">записываться, оплачивать,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="271" y="454.6982">отслеживать заказы</text></g><!--MD5=[dfe17c70190f8bf382e3c79df73555d9]
+entity mobile_db--><g id="elem_mobile_db"><path d="M492.5,330 C492.5,320 593,320 593,320 C593,320 693.5,320 693.5,330 L693.5,436.7813 C693.5,446.7813 593,446.7813 593,446.7813 C593,446.7813 492.5,446.7813 492.5,436.7813 L492.5,330 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.5;"/><path d="M492.5,330 C492.5,340 593,340 593,340 C593,340 693.5,340 693.5,330 " fill="none" style="stroke:#3C7FC0;stroke-width:0.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="134" x="526" y="358.8516">Мобильная БД</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="49" x="568.5" y="373.7637">[SQLite]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="591" y="389.5889"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="506.5" y="405.8857">Локальная база данных</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="504" y="422.1826">для сохранения данных</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="541.5" y="438.4795">пользователя</text></g><!--MD5=[d40ecb68fd03c4f349b7481a726a4cee]
+entity web_app--><g id="elem_web_app"><rect fill="#438DD5" height="150.375" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="216" x="729" y="308.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="835" y="331.4951"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="81" x="796.5" y="349.6484">Веб-сайт</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="120" x="777" y="364.5605">[Веб-приложение]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="835" y="380.3857"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="753.5" y="396.6826">Позволяет клиентам и</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="741.5" y="412.9795">персоналу записываться,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="739" y="429.2764">оплачивать, отслеживать</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="811.5" y="445.5732">заказы</text></g><!--MD5=[76642c686924d2234c32dd0968779847]
+entity api_gateway--><g id="elem_api_gateway"><rect fill="#438DD5" height="117.7813" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="203" x="502.5" y="557"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="530" y="579.9951">&lt;$Node.js, Express&gt;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="113" x="547.5" y="598.1484">API Gateway</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="86" x="561" y="613.0605">[API Gateway]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="602" y="628.8857"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="516.5" y="645.1826">Единая точка доступа к</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="569.5" y="661.4795">сервисам</text></g><!--MD5=[0c244f1ff8b51ed614320bc7fae387ac]
+entity auth_service--><g id="elem_auth_service"><rect fill="#438DD5" height="152.7031" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="214" x="23" y="764"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="56" y="786.9951">&lt;$Node.js, Express&gt;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="65" x="94.5" y="805.1484">Сервис</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="155" x="52.5" y="823.7734">Аутентификации</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="102" y="838.6855">[Сервис]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="128" y="854.5107"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="37" y="870.8076">Управляет авторизацией</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="54" y="887.1045">и аутентификацией</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="73.5" y="903.4014">пользователей</text></g><!--MD5=[cb27b5194fcf499d1ad2d6477b68255b]
+entity booking_service--><g id="elem_booking_service"><rect fill="#438DD5" height="117.7813" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="199" x="272.5" y="781.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="310" y="804.4951">&lt;$Python, Flask&gt;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="135" x="304.5" y="822.6484">Сервис Записи</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="344" y="837.5605">[Сервис]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="370" y="853.3857"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="286.5" y="869.6826">Управляет записями на</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="350.5" y="885.9795">мойку</text></g><!--MD5=[bf6e1617d74d5fbdeccbeb847f386170]
+entity payment_service--><g id="elem_payment_service"><rect fill="#438DD5" height="101.4844" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="189" x="736.5" y="790"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="757" y="812.9951">&lt;$Node.js, Express&gt;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="141" x="760.5" y="831.1484">Сервис Оплаты</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="803" y="846.0605">[Сервис]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="829" y="861.8857"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="750.5" y="878.1826">Управляет платежами</text></g><!--MD5=[d665cae492048e3a20c43fdf884087c5]
+entity payment_db--><g id="elem_payment_db"><path d="M748.5,1016 C748.5,1006 858,1006 858,1006 C858,1006 967.5,1006 967.5,1016 L967.5,1106.4844 C967.5,1116.4844 858,1116.4844 858,1116.4844 C858,1116.4844 748.5,1116.4844 748.5,1106.4844 L748.5,1016 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.5;"/><path d="M748.5,1016 C748.5,1026 858,1026 858,1026 C858,1026 967.5,1026 967.5,1016 " fill="none" style="stroke:#3C7FC0;stroke-width:0.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="102" x="807" y="1044.8516">БД Оплаты</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="82" x="817" y="1059.7637">[PostgreSQL]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="856" y="1075.5889"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="762.5" y="1091.8857">База данных для хранения</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="768" y="1108.1826">информации об оплатах</text></g><!--MD5=[27b361265a61439061a1cea8291c506f]
+entity feedback_service--><g id="elem_feedback_service"><rect fill="#438DD5" height="117.7813" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="194" x="507" y="781.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="542" y="804.4951">&lt;$Python, Flask&gt;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="148" x="530" y="822.6484">Сервис Отзывов</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="576" y="837.5605">[Сервис]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="602" y="853.3857"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="521" y="869.6826">Управляет отзывами и</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="560" y="885.9795">рейтингами</text></g><!--MD5=[4a7f0b701195bc8ea33bb27c590b5043]
+entity feedback_db--><g id="elem_feedback_db"><path d="M494.5,1016 C494.5,1006 604,1006 604,1006 C604,1006 713.5,1006 713.5,1016 L713.5,1106.4844 C713.5,1116.4844 604,1116.4844 604,1116.4844 C604,1116.4844 494.5,1116.4844 494.5,1106.4844 L494.5,1016 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.5;"/><path d="M494.5,1016 C494.5,1026 604,1026 604,1026 C604,1026 713.5,1026 713.5,1016 " fill="none" style="stroke:#3C7FC0;stroke-width:0.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="109" x="549.5" y="1044.8516">БД Отзывов</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="49" x="579.5" y="1059.7637">[MySQL]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="602" y="1075.5889"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="508.5" y="1091.8857">База данных для хранения</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="513.5" y="1108.1826">информации об отзывах</text></g><!--MD5=[3bd7bce4cdae717597188e08021aac6c]
+entity notification_service--><g id="elem_notification_service"><rect fill="#438DD5" height="117.7813" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="217" x="960.5" y="781.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="995" y="804.4951">&lt;$Node.js, Express&gt;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="197" x="970.5" y="822.6484">Сервис Уведомлений</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="1041" y="837.5605">[Сервис]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1067" y="853.3857"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="1030.5" y="869.6826">Управляет</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1011" y="885.9795">уведомлениями</text></g><!--MD5=[b33549c2307d267346b98ede9b7ec4ee]
+entity booking_db--><g id="elem_booking_db"><path d="M240.5,1016 C240.5,1006 350,1006 350,1006 C350,1006 459.5,1006 459.5,1016 L459.5,1106.4844 C459.5,1116.4844 350,1116.4844 350,1116.4844 C350,1116.4844 240.5,1116.4844 240.5,1106.4844 L240.5,1016 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.5;"/><path d="M240.5,1016 C240.5,1026 350,1026 350,1026 C350,1026 459.5,1026 459.5,1016 " fill="none" style="stroke:#3C7FC0;stroke-width:0.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="107" x="296.5" y="1044.8516">БД Записей</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="69" x="315.5" y="1059.7637">[MongoDB]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="348" y="1075.5889"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="254.5" y="1091.8857">База данных для хранения</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="265.5" y="1108.1826">информации о записях</text></g><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><g id="elem_user"><rect fill="#08427B" height="151.8125" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="212" x="486" y="7"/><image height="48" width="48" x="568" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="17"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="67" x="558.5" y="79.8516">Клиент</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="590" y="96.6201"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="500" y="112.917">Использует приложение</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="515.5" y="129.2139">для записи, оплаты,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="561" y="145.5107">отзывов</text></g><!--MD5=[db40f243d441b584286b13d99b87ba85]
+entity payment_system--><g id="elem_payment_system"><rect fill="#999999" height="87.5156" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="202" x="1210" y="1017"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="182" x="1220" y="1041.8516">Платежная система</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1309" y="1058.6201"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="1271" y="1074.917">Обработка</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1244.5" y="1091.2139">онлайн-платежей</text></g><!--MD5=[4a14555295ab08d79dd27d05506ec986]
+entity sms_service--><g id="elem_sms_service"><rect fill="#999999" height="87.5156" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="153" x="1447.5" y="1017"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="108" x="1470" y="1041.8516">SMS-сервис</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1522" y="1058.6201"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="1489" y="1074.917">Отправка</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1457.5" y="1091.2139">SMS-уведомлений</text></g><!--MD5=[ce9782b92eb51604c9583c86ca19ec77]
+entity email_service--><g id="elem_email_service"><rect fill="#999999" height="87.5156" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="148" x="1636" y="1017"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="114" x="1653" y="1041.8516">Email-сервис</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1708" y="1058.6201"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="1650" y="1074.917">Отправка чеков,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1661" y="1091.2139">уведомлений</text></g><!--MD5=[48a25e7522a0fae1fd050ac9709d06e5]
+link user to mobile_app--><g id="link_user_mobile_app"><path d="M530.43,159.32 C497.33,199.82 456.28,250.03 421.52,292.56 " fill="none" id="user-to-mobile_app" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="416.43,298.78,423.8172,294.4871,419.173,290.6883,416.43,298.78" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="509.5" y="201.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="510" y="215.1074">[Мобильное</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="87" x="507" y="229.0762">приложение]</text></g><!--MD5=[94f271e0b766105da8669f727520157f]
+link user to web_app--><g id="link_user_web_app"><path d="M653.82,159.32 C689.63,202.95 734.7,257.86 771.17,302.29 " fill="none" id="user-to-web_app" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="776.26,308.49,773.5078,300.4014,768.8679,304.2055,776.26,308.49" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="708" y="208.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="70" x="714" y="222.1074">[Веб-сайт]</text></g><!--MD5=[a2d1419a7cf217dd6b518a314544fc48]
+link mobile_app to api_gateway--><g id="link_mobile_app_api_gateway"><path d="M440.78,468.04 C471.38,495.59 504.88,525.75 533.53,551.55 " fill="none" id="mobile_app-to-api_gateway" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="539.56,556.98,535.6266,549.3953,531.6092,553.8518,539.56,556.98" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="499" y="510.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="525.5" y="524.1074">[API]</text></g><!--MD5=[176471f4d40c6bd061849d890e25a0a1]
+link web_app to api_gateway--><g id="link_web_app_api_gateway"><path d="M761.99,458.7 C731.94,488.44 697.64,522.36 668.7,550.99 " fill="none" id="web_app-to-api_gateway" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="662.99,556.65,670.7859,553.1538,666.5648,548.8898,662.99,556.65" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="721" y="510.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="747.5" y="524.1074">[API]</text></g><!--MD5=[a1d9696f22a0b7d101f7f720bfbbd9db]
+link api_gateway to auth_service--><g id="link_api_gateway_auth_service"><path d="M502.14,655.22 C431.54,682.84 336.03,722.46 255,764 C251.52,765.79 248,767.63 244.46,769.52 " fill="none" id="api_gateway-to-auth_service" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="237.19,773.46,245.6523,772.281,242.7904,767.0075,237.19,773.46" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="378" y="717.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="404.5" y="731.1074">[API]</text></g><!--MD5=[c722b2fd73539507fb9d2867df54da42]
+link api_gateway to booking_service--><g id="link_api_gateway_booking_service"><path d="M543.11,675.2 C532.73,685.14 522.05,695.36 512,705 C488,728.01 461.71,753.25 438.46,775.6 " fill="none" id="api_gateway-to-booking_service" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="432.61,781.21,440.458,777.8323,436.3019,773.5048,432.61,781.21" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="513" y="717.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="539.5" y="731.1074">[API]</text></g><!--MD5=[cf3050b4928c2592d13686cf8bfb18c0]
+link api_gateway to payment_service--><g id="link_api_gateway_payment_service"><path d="M665.04,675.05 C675.4,685 686.04,695.27 696,705 C722.41,730.78 751.44,759.63 775.79,783.99 " fill="none" id="api_gateway-to-payment_service" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="781.55,789.75,778.0243,781.9674,773.7763,786.2047,781.55,789.75" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="723" y="717.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="749.5" y="731.1074">[API]</text></g><!--MD5=[9837f01815347347192988f4371f4b40]
+link api_gateway to feedback_service--><g id="link_api_gateway_feedback_service"><path d="M604,675.17 C604,705.19 604,741.95 604,773.08 " fill="none" id="api_gateway-to-feedback_service" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="604,781.28,607,773.28,601,773.28,604,781.28" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="605" y="717.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="631.5" y="731.1074">[API]</text></g><!--MD5=[c92f6868553457e0e3b5172a666f8060]
+link api_gateway to notification_service--><g id="link_api_gateway_notification_service"><path d="M705.61,656.38 C773.94,684 865.37,723.15 943,764 C951.11,768.27 959.43,772.83 967.73,777.51 " fill="none" id="api_gateway-to-notification_service" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="974.7,781.46,969.2294,774.897,966.2629,780.1124,974.7,781.46" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="880" y="717.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="906.5" y="731.1074">[API]</text></g><!--MD5=[a11eab350a2d9de5fcec22f94750ac81]
+link payment_service to payment_db--><g id="link_payment_service_payment_db"><path d="M837.13,891.08 C841.03,922.67 846.12,963.86 850.3,997.66 " fill="none" id="payment_service-to-payment_db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="851.28,1005.64,853.2719,997.3314,847.3176,998.0704,851.28,1005.64" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="847" y="959.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="873.5" y="973.1074">[API]</text></g><!--MD5=[89e2a0f1d9c5759d4ba0cb7799bbafd7]
+link feedback_service to feedback_db--><g id="link_feedback_service_feedback_db"><path d="M604,899.77 C604,929.94 604,966.8 604,997.56 " fill="none" id="feedback_service-to-feedback_db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="604,1005.65,607,997.65,601,997.65,604,1005.65" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="605" y="959.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="631.5" y="973.1074">[API]</text></g><!--MD5=[4ecbb04d5121b2e2520f0a8af0a2cefe]
+link booking_service to booking_db--><g id="link_booking_service_booking_db"><path d="M366.13,899.77 C363.1,929.94 359.38,966.8 356.29,997.56 " fill="none" id="booking_service-to-booking_db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="355.47,1005.65,359.2552,997.9902,353.2853,997.39,355.47,1005.65" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="362" y="959.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="388.5" y="973.1074">[API]</text></g><!--MD5=[f3f587882250777d68aa302f1a0b4cd2]
+link payment_service to payment_system--><g id="link_payment_service_payment_system"><path d="M898.64,891.06 C912.9,900.36 928.13,909.51 943,917 C1048.69,970.28 1084.37,961.38 1194,1006 C1199.9,1008.4 1205.94,1010.94 1212,1013.55 " fill="none" id="payment_service-to-payment_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1219.7,1016.89,1213.555,1010.9538,1211.1669,1016.4581,1219.7,1016.89" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="1107" y="959.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="1133.5" y="973.1074">[API]</text></g><!--MD5=[e6bae26be1516d188b39173f138bc79d]
+link notification_service to sms_service--><g id="link_notification_service_sms_service"><path d="M1177.85,862.91 C1245.74,879.33 1333.16,906.21 1403,947 C1431.94,963.9 1459.61,988.84 1481.17,1011 " fill="none" id="notification_service-to-sms_service" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1486.8,1016.86,1483.4223,1009.012,1479.0948,1013.1681,1486.8,1016.86" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="1444" y="959.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="1470.5" y="973.1074">[API]</text></g><!--MD5=[d3e91188ebf78af12e2dbb1aca78a15c]
+link notification_service to email_service--><g id="link_notification_service_email_service"><path d="M1177.79,855.1 C1274.4,869.73 1418.01,897.81 1535,947 C1574.84,963.75 1615.62,989.48 1647.78,1012.17 " fill="none" id="notification_service-to-email_service" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1654.51,1016.96,1649.7365,1009.8738,1646.2541,1014.7599,1654.51,1016.96" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="1591" y="959.1387">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="1617.5" y="973.1074">[API]</text></g><rect fill="none" height="130.0781" id="_legend" rx="7.5" ry="7.5" style="stroke:none;stroke-width:1.0;" width="144" x="1624" y="1145"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="1630" y="1165.9951">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1689" y="1165.9951"> </text><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="1630" y="1169.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="1634" y="1182.292">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="1630" y="1185.5938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1634" y="1198.5889">system</text><rect fill="#438DD5" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="1630" y="1201.8906"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="1634" y="1214.8857">container</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="1630" y="1218.1875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="1634" y="1231.1826">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="1630" y="1234.4844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1634" y="1247.4795">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="1630" y="1250.7813"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="1634" y="1263.7764">external container</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1630" x2="1762" y1="1153" y2="1153"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1630" x2="1762" y1="1169.2969" y2="1169.2969"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1630" x2="1762" y1="1185.5938" y2="1185.5938"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1630" x2="1762" y1="1201.8906" y2="1201.8906"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1630" x2="1762" y1="1218.1875" y2="1218.1875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1630" x2="1762" y1="1234.4844" y2="1234.4844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1630" x2="1762" y1="1250.7813" y2="1250.7813"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1630" x2="1762" y1="1267.0781" y2="1267.0781"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1630" x2="1630" y1="1153" y2="1267.0781"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1762" x2="1762" y1="1153" y2="1267.0781"/><!--MD5=[e7e47fe3df5bb6c2a943c171c7a26301]
+@startuml
+!include <C4/C4_Container>
+
+LAYOUT_WITH_LEGEND()
+
+Person(user, "Клиент", "Использует приложение для записи, оплаты, отзывов")
+
+System_Boundary(c1, "Система Автомойки") {
+    Container(mobile_app, "Мобильное приложение", "Android/iOS", "Позволяет клиентам записываться, оплачивать, отслеживать заказы", "Java/Kotlin (Android), Swift (iOS)")
+        ContainerDb(mobile_db, "Мобильная БД", "SQLite", "Локальная база данных для сохранения данных пользователя")
+    Container(web_app, "Веб-сайт", "Веб-приложение", "Позволяет клиентам и персоналу записываться, оплачивать, отслеживать заказы", "React")
+    Container(api_gateway, "API Gateway", "API Gateway", "Единая точка доступа к сервисам", "Node.js, Express")
+    Container(auth_service, "Сервис Аутентификации", "Сервис", "Управляет авторизацией и аутентификацией пользователей", "Node.js, Express")
+    Container(booking_service, "Сервис Записи", "Сервис", "Управляет записями на мойку", "Python, Flask")
+    Container(payment_service, "Сервис Оплаты", "Сервис", "Управляет платежами", "Node.js, Express")
+        ContainerDb(payment_db, "БД Оплаты", "PostgreSQL", "База данных для хранения информации об оплатах")
+    Container(feedback_service, "Сервис Отзывов", "Сервис", "Управляет отзывами и рейтингами", "Python, Flask")
+        ContainerDb(feedback_db, "БД Отзывов", "MySQL", "База данных для хранения информации об отзывах")
+    Container(notification_service, "Сервис Уведомлений", "Сервис", "Управляет уведомлениями", "Node.js, Express")
+     ContainerDb(booking_db, "БД Записей", "MongoDB", "База данных для хранения информации о записях")
+
+}
+
+System_Ext(payment_system, "Платежная система", "Обработка онлайн-платежей")
+System_Ext(sms_service, "SMS-сервис", "Отправка SMS-уведомлений")
+System_Ext(email_service, "Email-сервис", "Отправка чеков, уведомлений")
+
+
+Rel(user, mobile_app, "Использует", "Мобильное приложение")
+Rel(user, web_app, "Использует", "Веб-сайт")
+Rel(mobile_app, api_gateway, "Использует", "API")
+Rel(web_app, api_gateway, "Использует", "API")
+Rel(api_gateway, auth_service, "Использует", "API")
+Rel(api_gateway, booking_service, "Использует", "API")
+Rel(api_gateway, payment_service, "Использует", "API")
+Rel(api_gateway, feedback_service, "Использует", "API")
+Rel(api_gateway, notification_service, "Использует", "API")
+Rel(payment_service, payment_db, "Использует", "API")
+Rel(feedback_service, feedback_db, "Использует", "API")
+Rel(booking_service, booking_db, "Использует", "API")
+Rel(payment_service, payment_system, "Использует", "API")
+Rel(notification_service, sms_service, "Использует", "API")
+Rel(notification_service, email_service, "Использует", "API")
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+
+rectangle "<$person>\n==Клиент\n\n Использует приложение для записи, оплаты, отзывов" <<person>> as user 
+
+rectangle "==Система Автомойки\n<size:12>[System]</size>" <<boundary>> as c1  {
+    rectangle "<$Java/Kotlin (Android), Swift (iOS)>\n==Мобильное приложение\n//<size:12>[Android/iOS]</size>//\n\n Позволяет клиентам записываться, оплачивать, отслеживать заказы" <<container>> as mobile_app 
+        database "==Мобильная БД\n//<size:12>[SQLite]</size>//\n\n Локальная база данных для сохранения данных пользователя" <<container>> as mobile_db 
+    rectangle "<$React>\n==Веб-сайт\n//<size:12>[Веб-приложение]</size>//\n\n Позволяет клиентам и персоналу записываться, оплачивать, отслеживать заказы" <<container>> as web_app 
+    rectangle "<$Node.js, Express>\n==API Gateway\n//<size:12>[API Gateway]</size>//\n\n Единая точка доступа к сервисам" <<container>> as api_gateway 
+    rectangle "<$Node.js, Express>\n==Сервис Аутентификации\n//<size:12>[Сервис]</size>//\n\n Управляет авторизацией и аутентификацией пользователей" <<container>> as auth_service 
+    rectangle "<$Python, Flask>\n==Сервис Записи\n//<size:12>[Сервис]</size>//\n\n Управляет записями на мойку" <<container>> as booking_service 
+    rectangle "<$Node.js, Express>\n==Сервис Оплаты\n//<size:12>[Сервис]</size>//\n\n Управляет платежами" <<container>> as payment_service 
+        database "==БД Оплаты\n//<size:12>[PostgreSQL]</size>//\n\n База данных для хранения информации об оплатах" <<container>> as payment_db 
+    rectangle "<$Python, Flask>\n==Сервис Отзывов\n//<size:12>[Сервис]</size>//\n\n Управляет отзывами и рейтингами" <<container>> as feedback_service 
+        database "==БД Отзывов\n//<size:12>[MySQL]</size>//\n\n База данных для хранения информации об отзывах" <<container>> as feedback_db 
+    rectangle "<$Node.js, Express>\n==Сервис Уведомлений\n//<size:12>[Сервис]</size>//\n\n Управляет уведомлениями" <<container>> as notification_service 
+     database "==БД Записей\n//<size:12>[MongoDB]</size>//\n\n База данных для хранения информации о записях" <<container>> as booking_db 
+
+}
+
+rectangle "==Платежная система\n\n Обработка онлайн-платежей" <<external_system>> as payment_system 
+rectangle "==SMS-сервис\n\n Отправка SMS-уведомлений" <<external_system>> as sms_service 
+rectangle "==Email-сервис\n\n Отправка чеков, уведомлений" <<external_system>> as email_service 
+
+
+user - ->> mobile_app : **Использует**\n//<size:12>[Мобильное приложение]</size>//
+user - ->> web_app : **Использует**\n//<size:12>[Веб-сайт]</size>//
+mobile_app - ->> api_gateway : **Использует**\n//<size:12>[API]</size>//
+web_app - ->> api_gateway : **Использует**\n//<size:12>[API]</size>//
+api_gateway - ->> auth_service : **Использует**\n//<size:12>[API]</size>//
+api_gateway - ->> booking_service : **Использует**\n//<size:12>[API]</size>//
+api_gateway - ->> payment_service : **Использует**\n//<size:12>[API]</size>//
+api_gateway - ->> feedback_service : **Использует**\n//<size:12>[API]</size>//
+api_gateway - ->> notification_service : **Использует**\n//<size:12>[API]</size>//
+payment_service - ->> payment_db : **Использует**\n//<size:12>[API]</size>//
+feedback_service - ->> feedback_db : **Использует**\n//<size:12>[API]</size>//
+booking_service - ->> booking_db : **Использует**\n//<size:12>[API]</size>//
+payment_service - ->> payment_system : **Использует**\n//<size:12>[API]</size>//
+notification_service - ->> sms_service : **Использует**\n//<size:12>[API]</size>//
+notification_service - ->> email_service : **Использует**\n//<size:12>[API]</size>//
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
