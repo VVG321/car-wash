@@ -64,6 +64,7 @@
 
 ## Диаграмма вариантов использования (PlantUML)
 <details>
+    <pre><code class="language-plantuml">
 @startuml
 left to right direction
 skinparam packageStyle rectangle
@@ -151,5 +152,6 @@ Client --|> UC10
 Staff --> UC9
 
 @enduml
+</code></pre>
 </details>
 
