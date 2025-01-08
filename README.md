@@ -59,4 +59,94 @@
 
 # USE CASES
 
+plantuml
 ![](drg.svg)
+
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor Client as "Клиент"
+actor "Персонал\nАвтомойки" as Staff
+
+rectangle "Приложение Автомойки" {
+    package "Управление Мойкой" as Wash {
+        package "Выбор" {
+            usecase "Просмотр" as UC1_1
+            usecase "Сравнение" as UC1_2
+            usecase "Выбор" as UC1_3
+        }
+        package "Запись" {
+            usecase "Просмотр Доступности" as UC2_1
+            usecase "Выбор Времени" as UC2_2
+            usecase "Подтверждение" as UC2_3
+            usecase "Отмена" as UC2_4
+        }
+    }
+
+     package "Уведомления" {
+          usecase "Получение Готовности" as UC3_1
+          usecase "Настройка" as UC3_2
+    }
+    package "Оплата" {
+          usecase "Выбор Способа" as UC4_1
+        usecase "Оплата" as UC4_2
+        usecase "Чек" as UC4_3
+     }
+
+    package "Личный Кабинет" as LK{
+        usecase "История" as UC5_1
+        usecase "Бонусы" as UC5_2
+        usecase "Использование" as UC5_3
+    }
+
+   package "Отзывы" {
+         usecase "Чтение" as UC6_1
+       usecase "Оставление" as UC6_2
+   }
+
+   package "Процесс" {
+      usecase "Время Мойки" as UC7_1
+      usecase "Просмотр Фото/Видео" as UC8_1
+        usecase "Запрос Фото/Видео" as UC8_2
+    }
+
+ usecase "Рекомендации" as UC9
+ usecase "Зона Отдыха" as UC10
+
+}
+
+Client --|> UC1_1
+Client --|> UC1_2
+Client --|> UC1_3
+
+Client --|> UC2_1
+Client --|> UC2_2
+Client --|> UC2_3
+Client --|> UC2_4
+
+Client --|> UC3_1
+Client --|> UC3_2
+
+Client --|> UC4_1
+Client --|> UC4_2
+Client --|> UC4_3
+
+Client --|> UC5_1
+Client --|> UC5_2
+Client --|> UC5_3
+
+Client --|> UC6_1
+Client --|> UC6_2
+
+Client --|> UC7_1
+Client --|> UC8_1
+Client --|> UC8_2
+
+Client --|> UC9
+Client --|> UC10
+
+Staff --> UC9
+
+@enduml
+
