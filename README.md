@@ -61,7 +61,9 @@
 
 
 ![](drg.svg)
-```plantuml
+
+## Диаграмма вариантов использования (PlantUML)
+<details>
 @startuml
 left to right direction
 skinparam packageStyle rectangle
@@ -149,5 +151,5 @@ Client --|> UC10
 Staff --> UC9
 
 @enduml
-```
+</details>
 
