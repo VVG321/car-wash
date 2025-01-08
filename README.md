@@ -637,7 +637,9 @@ deactivate MobileApp
 
 </code></pre>
 </details>
+
 ## Оплата пользователем через веб-сайт
+
 ![](q2.svg)
 
 <details>
@@ -680,7 +682,9 @@ deactivate WebApp
 
 </code></pre>
 </details>
+
 ## Получение отзыва от пользователя
+
 ![](q3.svg)
 
 <summary>Код диаграммы</summary>
