@@ -718,10 +718,8 @@ deactivate APIGateway
 MobileApp --> User : Подтверждение отправки запроса
 deactivate MobileApp
 @enduml
-
-</code></pre>
+ </code></pre>
 </details>
-
 
 # Спецификация OpenAPI
 ![](1.png)
