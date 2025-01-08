@@ -687,7 +687,8 @@ deactivate WebApp
 
 ![](q3.svg)
 
-<summary>Код диаграммы</summary>
+<details>
+    <summary>Код диаграммы</summary>
     <pre><code class="language-plantuml">
 @startuml
 participant "Клиент" as User
@@ -718,7 +719,7 @@ deactivate APIGateway
 MobileApp --> User : Подтверждение отправки запроса
 deactivate MobileApp
 @enduml
- </code></pre>
+</code></pre>
 </details>
 
 # Спецификация OpenAPI
