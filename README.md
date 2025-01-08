@@ -59,9 +59,9 @@
 
 # USE CASES
 
-```plantuml
-![](drg.svg)
 
+![](drg.svg)
+```plantuml
 @startuml
 left to right direction
 skinparam packageStyle rectangle
