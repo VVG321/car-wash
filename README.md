@@ -62,8 +62,9 @@
 
 ![](drg.svg)
 
-## Диаграмма вариантов использования (PlantUML)
+## Код диаграммы
 <details>
+    <summary>Код диаграммы "Автомойка"</summary>
     <pre><code class="language-plantuml">
 @startuml
 left to right direction
@@ -154,4 +155,6 @@ Staff --> UC9
 @enduml
 </code></pre>
 </details>
+
+
 
