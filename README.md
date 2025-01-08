@@ -57,8 +57,8 @@
 •  Как современный человек, я хочу иметь доступ к интернету во время ожидания своего автомобиля.
 
 
-#USE CASES
+# USE CASES
 
 ```markdown
-C:\Users\gurco\Downloads\drg
+drg.png
 ```
