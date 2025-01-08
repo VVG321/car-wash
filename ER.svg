@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="795px" preserveAspectRatio="none" style="width:953px;height:795px;background:#FFFFFF;" version="1.1" viewBox="0 0 953 795" width="953px" zoomAndPan="magnify"><defs/><g><!--MD5=[7727584e4826944d4ad925785137a196]
+class Пользователь--><g id="elem_Пользователь"><rect codeLine="2" fill="#F1F1F1" height="162.0781" id="Пользователь" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="234" x="479.5" y="7"/><ellipse cx="540.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M544.3594,29 L536.6406,29 L536.6406,16.6094 L544.3594,16.6094 L544.3594,18.7656 L539.0938,18.7656 L539.0938,21.4375 L543.8594,21.4375 L543.8594,23.5938 L539.0938,23.5938 L539.0938,26.8438 L544.3594,26.8438 L544.3594,29 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="560.75" y="27.8467">Пользователь</text><line style="stroke:#181818;stroke-width:0.5;" x1="480.5" x2="712.5" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="485.5" y="55.9951">• id : INTEGER (PK)</text><line style="stroke:#181818;stroke-width:1.0;" x1="480.5" x2="712.5" y1="63.2969" y2="63.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="485.5" y="80.292">email : VARCHAR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="485.5" y="96.5889">телефон : VARCHAR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="485.5" y="112.8857">пароль : VARCHAR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="485.5" y="129.1826">имя : VARCHAR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="485.5" y="145.4795">фамилия : VARCHAR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="222" x="485.5" y="161.7764">дата_регистрации : DATETIME</text></g><!--MD5=[fec1c60148c4c61290ce478c181a0e15]
+class Мойка--><g id="elem_Мойка"><rect codeLine="14" fill="#F1F1F1" height="129.4844" id="Мойка" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="182" x="28.5" y="477.5"/><ellipse cx="92.25" cy="493.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M96.3594,499.5 L88.6406,499.5 L88.6406,487.1094 L96.3594,487.1094 L96.3594,489.2656 L91.0938,489.2656 L91.0938,491.9375 L95.8594,491.9375 L95.8594,494.0938 L91.0938,494.0938 L91.0938,497.3438 L96.3594,497.3438 L96.3594,499.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="112.75" y="498.3467">Мойка</text><line style="stroke:#181818;stroke-width:0.5;" x1="29.5" x2="209.5" y1="509.5" y2="509.5"/><ellipse cx="39.5" cy="523.1484" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="48.5" y="526.4951">id : INTEGER (PK)</text><line style="stroke:#181818;stroke-width:1.0;" x1="29.5" x2="209.5" y1="533.7969" y2="533.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="34.5" y="550.792">тип : VARCHAR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="34.5" y="567.0889">цена : DECIMAL</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="34.5" y="583.3857">время_мойки : INTEGER</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="34.5" y="599.6826">описание : TEXT</text></g><!--MD5=[17f17c02070167de13cccaecf885f296]
+class Запись--><g id="elem_Запись"><rect codeLine="24" fill="#F1F1F1" height="145.7813" id="Запись" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="239" x="273" y="246"/><ellipse cx="362.75" cy="262" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M366.8594,268 L359.1406,268 L359.1406,255.6094 L366.8594,255.6094 L366.8594,257.7656 L361.5938,257.7656 L361.5938,260.4375 L366.3594,260.4375 L366.3594,262.5938 L361.5938,262.5938 L361.5938,265.8438 L366.8594,265.8438 L366.8594,268 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="383.25" y="266.8467">Запись</text><line style="stroke:#181818;stroke-width:0.5;" x1="274" x2="511" y1="278" y2="278"/><ellipse cx="284" cy="291.6484" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="293" y="294.9951">id : INTEGER (PK)</text><line style="stroke:#181818;stroke-width:1.0;" x1="274" x2="511" y1="302.2969" y2="302.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="227" x="279" y="319.292">пользователь_id : INTEGER (FK)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="279" y="335.5889">мойка_id : INTEGER (FK)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="279" y="351.8857">дата_время : DATETIME</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="279" y="368.1826">статус : VARCHAR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="279" y="384.4795">общая_стоимость : DECIMAL</text></g><!--MD5=[94b1298031c1d4b9b163111806676c69]
+class Оплата--><g id="elem_Оплата"><rect codeLine="35" fill="#F1F1F1" height="145.7813" id="Оплата" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="206" x="245.5" y="469"/><ellipse cx="317.25" cy="485" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M321.3594,491 L313.6406,491 L313.6406,478.6094 L321.3594,478.6094 L321.3594,480.7656 L316.0938,480.7656 L316.0938,483.4375 L320.8594,483.4375 L320.8594,485.5938 L316.0938,485.5938 L316.0938,488.8438 L321.3594,488.8438 L321.3594,491 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="337.75" y="489.8467">Оплата</text><line style="stroke:#181818;stroke-width:0.5;" x1="246.5" x2="450.5" y1="501" y2="501"/><ellipse cx="256.5" cy="514.6484" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="265.5" y="517.9951">id : INTEGER (PK)</text><line style="stroke:#181818;stroke-width:1.0;" x1="246.5" x2="450.5" y1="525.2969" y2="525.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="251.5" y="542.292">запись_id : INTEGER (FK)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="251.5" y="558.5889">способ_оплаты : VARCHAR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="251.5" y="574.8857">дата_оплаты : DATETIME</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="251.5" y="591.1826">сумма_оплаты : DECIMAL</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="251.5" y="607.4795">чек_номер : VARCHAR</text></g><!--MD5=[f35d65b14afa33de22a72d932c07c4e3]
+class Отзыв--><g id="elem_Отзыв"><rect codeLine="46" fill="#F1F1F1" height="145.7813" id="Отзыв" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="239" x="487" y="469"/><ellipse cx="578.75" cy="485" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M582.8594,491 L575.1406,491 L575.1406,478.6094 L582.8594,478.6094 L582.8594,480.7656 L577.5938,480.7656 L577.5938,483.4375 L582.3594,483.4375 L582.3594,485.5938 L577.5938,485.5938 L577.5938,488.8438 L582.8594,488.8438 L582.8594,491 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="599.25" y="489.8467">Отзыв</text><line style="stroke:#181818;stroke-width:0.5;" x1="488" x2="725" y1="501" y2="501"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="493" y="517.9951">• id : INTEGER (PK)</text><line style="stroke:#181818;stroke-width:1.0;" x1="488" x2="725" y1="525.2969" y2="525.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="227" x="493" y="542.292">пользователь_id : INTEGER (FK)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="493" y="558.5889">запись_id : INTEGER (FK)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="493" y="574.8857">рейтинг : INTEGER</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="493" y="591.1826">комментарий : TEXT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="493" y="607.4795">дата_отзыва : DATETIME</text></g><!--MD5=[f40924624368694c8840a0c8103b4a27]
+class Бонусы_Скидки--><g id="elem_Бонусы_Скидки"><rect codeLine="57" fill="#F1F1F1" height="145.7813" id="Бонусы_Скидки" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="239" x="707" y="246"/><ellipse cx="764.75" cy="262" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M768.8594,268 L761.1406,268 L761.1406,255.6094 L768.8594,255.6094 L768.8594,257.7656 L763.5938,257.7656 L763.5938,260.4375 L768.3594,260.4375 L768.3594,262.5938 L763.5938,262.5938 L763.5938,265.8438 L768.8594,265.8438 L768.8594,268 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="785.25" y="266.8467">Бонусы_Скидки</text><line style="stroke:#181818;stroke-width:0.5;" x1="708" x2="945" y1="278" y2="278"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="713" y="294.9951">• id : INTEGER (PK)</text><line style="stroke:#181818;stroke-width:1.0;" x1="708" x2="945" y1="302.2969" y2="302.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="227" x="713" y="319.292">пользователь_id : INTEGER (FK)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="713" y="335.5889">тип : VARCHAR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="713" y="351.8857">сумма : DECIMAL</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="204" x="713" y="368.1826">дата_активации : DATETIME</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="204" x="713" y="384.4795">дата_истечения : DATETIME</text></g><!--MD5=[91a33bf2225ed07ca5b852d5377a17d4]
+class Рекомендации--><g id="elem_Рекомендации"><rect codeLine="68" fill="#F1F1F1" height="96.8906" id="Рекомендации" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="225" x="7" y="692"/><ellipse cx="60.75" cy="708" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M64.8594,714 L57.1406,714 L57.1406,701.6094 L64.8594,701.6094 L64.8594,703.7656 L59.5938,703.7656 L59.5938,706.4375 L64.3594,706.4375 L64.3594,708.5938 L59.5938,708.5938 L59.5938,711.8438 L64.8594,711.8438 L64.8594,714 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="81.25" y="712.8467">Рекомендации</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="231" y1="724" y2="724"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="13" y="740.9951">• id : INTEGER (PK)</text><line style="stroke:#181818;stroke-width:1.0;" x1="8" x2="231" y1="748.2969" y2="748.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="13" y="765.292">текст : TEXT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213" x="13" y="781.5889">дата_публикации : DATETIME</text></g><!--MD5=[7be3c4249135ea11234b764030a4c09e]
+link Пользователь to Запись--><g id="link_Пользователь_Запись"><path codeLine="77" d="M519.62,175.3 C500.73,196.5 480.62,219.09 462.09,239.88 " fill="none" id="Пользователь-Запись" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="461.9614" x2="461.1368" y1="239.9976" y2="249.9635"/><line style="stroke:#181818;stroke-width:1.0;" x1="461.9614" x2="452.1632" y1="239.9976" y2="241.9965"/><line style="stroke:#181818;stroke-width:1.0;" x1="461.9614" x2="456.65" y1="239.9976" y2="245.98"/><ellipse cx="465.9449" cy="235.5108" fill="none" rx="4" ry="4" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="519.5023" x2="525.4713" y1="169.4113" y2="174.7377"/><line style="stroke:#181818;stroke-width:1.0;" x1="517.5049" x2="523.4739" y1="171.6497" y2="176.9761"/><line style="stroke:#181818;stroke-width:1.0;" x1="519.8236" x2="525.15" y1="175.059" y2="169.09"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="495.5" y="212.0669">делает</text></g><!--MD5=[7b9a7945514715483616ce4cf98b195d]
+link Запись to Мойка--><g id="link_Запись_Мойка"><path codeLine="78" d="M297.08,397.25 C267.06,421.55 234.12,448.21 204.85,471.91 " fill="none" id="Запись-Мойка" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="204.489" x2="202.0443" y1="472.1976" y2="481.8942"/><line style="stroke:#181818;stroke-width:1.0;" x1="204.489" x2="194.4957" y1="472.1976" y2="472.5658"/><line style="stroke:#181818;stroke-width:1.0;" x1="204.489" x2="198.27" y1="472.1976" y2="477.23"/><ellipse cx="209.1532" cy="468.4234" fill="none" rx="4" ry="4" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="297.8643" x2="302.8967" y1="391.4667" y2="397.6857"/><line style="stroke:#181818;stroke-width:1.0;" x1="295.5322" x2="300.5646" y1="393.3538" y2="399.5728"/><line style="stroke:#181818;stroke-width:1.0;" x1="297.271" x2="303.49" y1="397.0924" y2="392.06"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70" x="265.5" y="435.0669">содержит</text></g><!--MD5=[fd28f71b978da8a6027e776b21dcd47f]
+link Запись to Оплата--><g id="link_Запись_Оплата"><path codeLine="79" d="M369.42,400.13 C367.63,407.49 365.95,414.86 364.5,422 C361.97,434.43 359.74,447.68 357.81,460.65 " fill="none" id="Запись-Оплата" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="357.7834" x2="362.5784" y1="460.7721" y2="469.5475"/><line style="stroke:#181818;stroke-width:1.0;" x1="357.7834" x2="350.7016" y1="460.7721" y2="467.8325"/><line style="stroke:#181818;stroke-width:1.0;" x1="357.7834" x2="356.64" y1="460.7721" y2="468.69"/><ellipse cx="358.6409" cy="454.8337" fill="none" rx="4" ry="4" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="366.5631" x2="374.3267" y1="395.0667" y2="396.9969"/><line style="stroke:#181818;stroke-width:1.0;" x1="365.8393" x2="373.6029" y1="397.9781" y2="399.9083"/><line style="stroke:#181818;stroke-width:1.0;" x1="369.4798" x2="371.41" y1="399.9137" y2="392.15"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="365.5" y="435.0669">включает</text></g><!--MD5=[139f6fd08375e7b2525fca852acb90f2]
+link Пользователь to Отзыв--><g id="link_Пользователь_Отзыв"><path codeLine="80" d="M598.45,177.13 C600.27,259.41 602.96,381.15 604.73,460.78 " fill="none" id="Пользователь-Отзыв" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="604.7286" x2="610.8986" y1="460.8318" y2="468.7015"/><line style="stroke:#181818;stroke-width:1.0;" x1="604.7286" x2="598.9014" y1="460.8318" y2="468.9585"/><line style="stroke:#181818;stroke-width:1.0;" x1="604.7286" x2="604.9" y1="460.8318" y2="468.83"/><ellipse cx="604.6001" cy="454.8332" fill="none" rx="4" ry="4" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="594.3639" x2="602.3618" y1="173.1218" y2="172.9361"/><line style="stroke:#181818;stroke-width:1.0;" x1="594.4335" x2="602.4314" y1="176.1209" y2="175.9353"/><line style="stroke:#181818;stroke-width:1.0;" x1="598.4557" x2="598.27" y1="177.0278" y2="169.03"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="604.5" y="323.5669">оставляет</text></g><!--MD5=[591054eba796246e691f414d7351047a]
+link Запись to Отзыв--><g id="link_Запись_Отзыв"><path codeLine="81" d="M449.39,398.62 C460.52,412.51 472.49,426.52 484.5,439 C492.36,447.16 500.83,455.33 509.52,463.29 " fill="none" id="Запись-Отзыв" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="509.625" x2="519.5832" y1="463.3957" y2="464.3088"/><line style="stroke:#181818;stroke-width:1.0;" x1="509.625" x2="511.5368" y1="463.3957" y2="473.2112"/><line style="stroke:#181818;stroke-width:1.0;" x1="509.625" x2="515.56" y1="463.3957" y2="468.76"/><ellipse cx="505.1738" cy="459.3724" fill="none" rx="4" ry="4" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="443.6802" x2="449.9494" y1="397.8594" y2="392.8898"/><line style="stroke:#181818;stroke-width:1.0;" x1="445.5439" x2="451.813" y1="400.2104" y2="395.2407"/><line style="stroke:#181818;stroke-width:1.0;" x1="449.2996" x2="444.33" y1="398.5092" y2="392.24"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="485.5" y="435.0669">относится к</text></g><!--MD5=[fa9a4923d3e4d281f35c5b1373b0167b]
+link Пользователь to Бонусы_Скидки--><g id="link_Пользователь_Бонусы_Скидки"><path codeLine="82" d="M682.87,175 C704.34,196.37 727.23,219.16 748.28,240.12 " fill="none" id="Пользователь-Бонусы_Скидки" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="748.506" x2="758.4073" y1="240.3303" y2="241.732"/><line style="stroke:#181818;stroke-width:1.0;" x1="748.506" x2="749.9327" y1="240.3303" y2="250.228"/><line style="stroke:#181818;stroke-width:1.0;" x1="748.506" x2="754.17" y1="240.3303" y2="245.98"/><ellipse cx="744.258" cy="236.093" fill="none" rx="4" ry="4" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="676.9543" x2="682.5968" y1="174.7468" y2="169.0757"/><line style="stroke:#181818;stroke-width:1.0;" x1="679.081" x2="684.7235" y1="176.8628" y2="171.1917"/><line style="stroke:#181818;stroke-width:1.0;" x1="682.6111" x2="676.94" y1="174.7326" y2="169.09"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="719.5" y="212.0669">имеет</text></g><!--MD5=[0811d17616766ccd0ce2bd177b9647ad]
+link Мойка to Рекомендации--><g id="link_Мойка_Рекомендации"><path codeLine="92" d="M119.5,614.75 C119.5,637.49 119.5,662.28 119.5,683.72 " fill="none" id="Мойка-Рекомендации" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="119.5" x2="125.5" y1="683.77" y2="691.77"/><line style="stroke:#181818;stroke-width:1.0;" x1="119.5" x2="113.5" y1="683.77" y2="691.77"/><line style="stroke:#181818;stroke-width:1.0;" x1="119.5" x2="119.5" y1="683.77" y2="691.77"/><ellipse cx="119.5" cy="677.77" fill="none" rx="4" ry="4" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="115.5" x2="123.5" y1="610.53" y2="610.53"/><line style="stroke:#181818;stroke-width:1.0;" x1="115.5" x2="123.5" y1="613.53" y2="613.53"/><line style="stroke:#181818;stroke-width:1.0;" x1="119.5" x2="119.5" y1="614.53" y2="606.53"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="120.5" y="658.0669">имеет</text></g><!--MD5=[20dd19da348001bc87913e493ff3fbbf]
+@startuml
+' Определяем сущности (entities)
+entity Пользователь {
+  • id : INTEGER (PK)
+  - -
+  email : VARCHAR
+  телефон : VARCHAR
+  пароль : VARCHAR
+  имя : VARCHAR
+  фамилия : VARCHAR
+  дата_регистрации : DATETIME
+  ' дополнительные атрибуты
+}
+
+entity Мойка {
+    * id : INTEGER (PK)
+    - -
+    тип : VARCHAR
+    цена : DECIMAL
+    время_мойки : INTEGER
+    описание : TEXT
+    'дополнительные атрибуты
+}
+
+entity Запись {
+    * id : INTEGER (PK)
+    - -
+    пользователь_id : INTEGER (FK)
+    мойка_id : INTEGER (FK)
+    дата_время : DATETIME
+    статус : VARCHAR
+    общая_стоимость : DECIMAL
+    'дополнительные атрибуты
+}
+
+entity Оплата {
+    * id : INTEGER (PK)
+    - -
+    запись_id : INTEGER (FK)
+    способ_оплаты : VARCHAR
+    дата_оплаты : DATETIME
+    сумма_оплаты : DECIMAL
+    чек_номер : VARCHAR
+    'дополнительные атрибуты
+}
+
+entity Отзыв {
+  • id : INTEGER (PK)
+  - -
+  пользователь_id : INTEGER (FK)
+  запись_id : INTEGER (FK)
+  рейтинг : INTEGER
+  комментарий : TEXT
+  дата_отзыва : DATETIME
+  'дополнительные атрибуты
+}
+
+entity Бонусы_Скидки {
+  • id : INTEGER (PK)
+  - -
+  пользователь_id : INTEGER (FK)
+  тип : VARCHAR
+  сумма : DECIMAL
+  дата_активации : DATETIME
+  дата_истечения : DATETIME
+  'дополнительные атрибуты
+}
+
+entity Рекомендации {
+  • id : INTEGER (PK)
+  - -
+  текст : TEXT
+  дата_публикации : DATETIME
+    'дополнительные атрибуты
+}
+'Определяем связи между сущностями
+
+Пользователь ||- -o{ Запись : "делает"
+Запись  ||- -o{ Мойка : "содержит"
+Запись  ||- -o{ Оплата : "включает"
+Пользователь  ||- -o{ Отзыв : "оставляет"
+Запись ||- -o{ Отзыв : "относится к"
+Пользователь  ||- -o{ Бонусы_Скидки : "имеет"
+
+'Связь Many-to-Many между Мойка и Рекомендации
+'entity Мойка_Рекомендации{
+'  * мойка_id: INTEGER (FK)
+'   * рекомендации_id : INTEGER (FK)
+'}
+'Мойка ||- -o{  Мойка_Рекомендации : "соответствует"
+'Рекомендации ||- -o{  Мойка_Рекомендации : "соответствует"
+
+Мойка ||- -o{  Рекомендации : "имеет"
+@enduml
+
+@startuml
+entity Пользователь {
+  • id : INTEGER (PK)
+  - -
+  email : VARCHAR
+  телефон : VARCHAR
+  пароль : VARCHAR
+  имя : VARCHAR
+  фамилия : VARCHAR
+  дата_регистрации : DATETIME
+}
+
+entity Мойка {
+    * id : INTEGER (PK)
+    - -
+    тип : VARCHAR
+    цена : DECIMAL
+    время_мойки : INTEGER
+    описание : TEXT
+}
+
+entity Запись {
+    * id : INTEGER (PK)
+    - -
+    пользователь_id : INTEGER (FK)
+    мойка_id : INTEGER (FK)
+    дата_время : DATETIME
+    статус : VARCHAR
+    общая_стоимость : DECIMAL
+}
+
+entity Оплата {
+    * id : INTEGER (PK)
+    - -
+    запись_id : INTEGER (FK)
+    способ_оплаты : VARCHAR
+    дата_оплаты : DATETIME
+    сумма_оплаты : DECIMAL
+    чек_номер : VARCHAR
+}
+
+entity Отзыв {
+  • id : INTEGER (PK)
+  - -
+  пользователь_id : INTEGER (FK)
+  запись_id : INTEGER (FK)
+  рейтинг : INTEGER
+  комментарий : TEXT
+  дата_отзыва : DATETIME
+}
+
+entity Бонусы_Скидки {
+  • id : INTEGER (PK)
+  - -
+  пользователь_id : INTEGER (FK)
+  тип : VARCHAR
+  сумма : DECIMAL
+  дата_активации : DATETIME
+  дата_истечения : DATETIME
+}
+
+entity Рекомендации {
+  • id : INTEGER (PK)
+  - -
+  текст : TEXT
+  дата_публикации : DATETIME
+}
+
+Пользователь ||- -o{ Запись : "делает"
+Запись  ||- -o{ Мойка : "содержит"
+Запись  ||- -o{ Оплата : "включает"
+Пользователь  ||- -o{ Отзыв : "оставляет"
+Запись ||- -o{ Отзыв : "относится к"
+Пользователь  ||- -o{ Бонусы_Скидки : "имеет"
+
+
+Мойка ||- -o{  Рекомендации : "имеет"
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
