@@ -594,7 +594,131 @@ entity Рекомендации {
 
 ## Запись пользователя на мойку через мобильное приложение
 ![](q1.svg)
+
+<details>
+    <summary>Код диаграммы</summary>
+    <pre><code class="language-plantuml">
+
+@startuml
+participant "Клиент" as User
+participant "Мобильное приложение" as MobileApp
+participant "API Gateway" as APIGateway
+participant "Сервис Аутентификации" as AuthService
+participant "Сервис Записи" as BookingService
+database "БД Записей" as BookingDB
+participant "Сервис Уведомлений" as NotificationService
+
+User -> MobileApp : Выбирает тип мойки и время
+activate MobileApp
+MobileApp -> APIGateway : POST /bookings
+activate APIGateway
+APIGateway -> AuthService : Аутентификация пользователя
+activate AuthService
+AuthService --> APIGateway : OK, авторизован
+deactivate AuthService
+APIGateway -> BookingService : POST /bookings (данные записи)
+activate BookingService
+BookingService -> BookingDB : Сохранить данные записи
+activate BookingDB
+BookingDB --> BookingService : Запись сохранена
+deactivate BookingDB
+BookingService --> APIGateway : OK, запись создана
+deactivate BookingService
+APIGateway --> MobileApp : OK, запись создана
+deactivate APIGateway
+MobileApp -> NotificationService : Уведомление о записи
+activate NotificationService
+NotificationService --> MobileApp : Уведомление отправлено
+deactivate NotificationService
+MobileApp --> User : Показывает подтверждение
+deactivate MobileApp
+@enduml
+
+
+</code></pre>
+</details>
 ## Оплата пользователем через веб-сайт
 ![](q2.svg)
+
+<details>
+    <summary>Код диаграммы</summary>
+    <pre><code class="language-plantuml">
+@startuml
+participant "Клиент" as User
+participant "Веб-сайт" as WebApp
+participant "API Gateway" as APIGateway
+participant "Сервис Аутентификации" as AuthService
+participant "Сервис Оплаты" as PaymentService
+database "БД Оплаты" as PaymentDB
+participant "Платежная система" as PaymentSystem
+
+User -> WebApp : Начинает оплату
+activate WebApp
+WebApp -> APIGateway : POST /payments
+activate APIGateway
+APIGateway -> AuthService : Аутентификация пользователя
+activate AuthService
+AuthService --> APIGateway : OK, авторизован
+deactivate AuthService
+APIGateway -> PaymentService : POST /payments (данные оплаты)
+activate PaymentService
+PaymentService -> PaymentDB : Сохранить данные оплаты
+activate PaymentDB
+PaymentDB --> PaymentService : Данные сохранены
+deactivate PaymentDB
+PaymentService -> PaymentSystem : Запрос на оплату
+activate PaymentSystem
+PaymentSystem --> PaymentService : Оплата успешна/не успешна
+deactivate PaymentSystem
+PaymentService --> APIGateway : OK, оплата выполнена
+deactivate PaymentService
+APIGateway --> WebApp : OK, оплата выполнена
+deactivate APIGateway
+WebApp --> User : Подтверждение оплаты
+deactivate WebApp
+@enduml
+
+</code></pre>
+</details>
 ## Получение отзыва от пользователя
 ![](q3.svg)
+
+<summary>Код диаграммы</summary>
+    <pre><code class="language-plantuml">
+@startuml
+participant "Клиент" as User
+participant "Мобильное приложение" as MobileApp
+participant "API Gateway" as APIGateway
+participant "Сервис Аутентификации" as AuthService
+participant "Сервис Интеграции с Поддержкой" as SupportIntegrationService
+participant "Система Поддержки" as SupportSystem
+
+User -> MobileApp : Отправляет запрос в поддержку
+activate MobileApp
+MobileApp -> APIGateway : POST /support
+activate APIGateway
+APIGateway -> AuthService : Аутентификация пользователя
+activate AuthService
+AuthService --> APIGateway : OK, авторизован
+deactivate AuthService
+APIGateway -> SupportIntegrationService : POST /support (данные запроса)
+activate SupportIntegrationService
+SupportIntegrationService -> SupportSystem : Отправить запрос в систему поддержки
+activate SupportSystem
+SupportSystem --> SupportIntegrationService : Запрос сохранен
+deactivate SupportSystem
+SupportIntegrationService --> APIGateway : OK, запрос сохранен
+deactivate SupportIntegrationService
+APIGateway --> MobileApp : OK, запрос отправлен
+deactivate APIGateway
+MobileApp --> User : Подтверждение отправки запроса
+deactivate MobileApp
+@enduml
+
+</code></pre>
+</details>
+
+
+# Спецификация OpenAPI
+![](1.png)
+![](2.png)
